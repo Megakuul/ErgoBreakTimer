@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "ErgoBreakTimer",
+    "version": "1.0",
+    "description": "Timer for posture reminders to prevent sitting in one position all day.",
+    "permissions": ["notifications", "storage", "alarms"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": { "48": "icon.png" }
+}

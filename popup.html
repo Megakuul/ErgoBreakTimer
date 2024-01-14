@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <title>ErgoBreakTimer</title>
+</head>
+
+<script src="popup.js"></script>
+
+<body>
+  <button id="enable-btn">Enable Script execution!</button>
+</body>
+
+<style>
+	body {
+			background-color: rgba(66,69,73,1);
+	}
+	#enable-btn {
+			background:  rgba(115, 144, 114, 1);
+			opacity: 0.8;
+			color: rgba(255,255,255, 0.8);
+			font-size: 23px;
+			font-weight: 900;
+			border: none;
+			border-radius: 12px;
+			padding: 0.8rem 1.1rem 0.8rem 1.1rem;
+			margin: 1rem;
+			cursor: pointer;
+			transition: all ease 1s;
+	}
+
+	#enable-btn:hover, #enable-btn:focus {
+			opacity: 0.5;
+			outline: none;
+	}
+
+	#enable-btn.enabled {
+			background:  rgba(210, 69, 69, 1);
+	}
+</style>
