@@ -1,6 +1,6 @@
 chrome.alarms.create("poschange", {
-		delayInMinutes: 30,
-		periodInMinutes: 30
+		delayInMinutes: 25,
+		periodInMinutes: 25
 });
 
 chrome.alarms.create("standup", {
